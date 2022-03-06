@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "marktree": "^0.0.6"
+    "marktree": "^0.0.8"
   }
 }
