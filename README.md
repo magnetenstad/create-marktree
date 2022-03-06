@@ -1,2 +1,3 @@
 # create-marktree
-Initializes a marktree project
+
+Initializes a new [marktree](https://github.com/magnetenstad/marktree) project.
