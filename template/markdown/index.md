@@ -1,32 +1,22 @@
 
-# Welcome to MarkTree!
-Another static site generator. Works great with GitHub pages.
-Thank you for giving it a try.
+# Welcome to marktree!
+marktree is a static site generator, using markdown. It works great with GitHub pages. Thank you for giving it a try!
 
 ## Get started
-
-1. Initialize Node
-```sh
-npm init -y
+1. Build your site
 ```
-2. Install MarkTree
-```sh
-npm i marktree
-```
-3. Create a `markdown/`-folder and fill it with markdown files
-4. Build your site
-```
-marktree
+npm run build
 ```
 5. Host the contents of `docs/`
 
-## Connections
+## Functionality
+
+### Connections
 The links above are automatically generated!
 
+### Markdown - extended
 
-## Markdown - extended
-
-### Basic markdown
+#### Basic markdown
 1. First list item
 2. Second item
    - Subitem
@@ -37,7 +27,7 @@ And | tables
 --- | ---
 of | course.
 
-### Code highlighting
+#### Code highlighting
 Both `inline('highlighting')` and 
 ```js
 // Code blocks!
@@ -47,7 +37,7 @@ console.log(`Count: ${count}`);
 ```
 Enabled by [highlight.js](https://www.npmjs.com/package/highlight.js?activeTab=readme)
 
-### Maths
+#### Maths
 Both $\text{inline} + 1 + 2 + 3 + \dots$
 and
 $$

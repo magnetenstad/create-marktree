@@ -1,6 +1,6 @@
 {
   "name": "create-marktree",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Initializes a marktree project",
   "main": "index.js",
   "type": "module",
