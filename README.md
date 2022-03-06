@@ -5,4 +5,7 @@ marktree is a static site generator, using markdown. It works great with GitHub 
 Initialize a new [marktree](https://github.com/magnetenstad/marktree) project.
 ```sh
 npm init marktree@latest
+npm i
+npm run build
 ```
+
