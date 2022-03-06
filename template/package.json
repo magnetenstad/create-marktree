@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "marktree"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "marktree": "^0.0.8"
+    "marktree": "^0.0.9"
   }
 }
