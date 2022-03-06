@@ -1,11 +1,10 @@
 # create-marktree
-marktree is a static site generator, using markdown. It works great with GitHub pages.
+[marktree](https://github.com/magnetenstad/marktree) is a static site generator, using markdown. It works with GitHub pages out of the box.
+create-marktree is the quickest way to start a marktree project.
 
 ## Get started
-Initialize a new [marktree](https://github.com/magnetenstad/marktree) project.
 ```sh
 npm init marktree@latest
 npm i
 npm run build
 ```
-
