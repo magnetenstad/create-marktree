@@ -2,7 +2,11 @@
 
 import { Directory } from 'virtual-file-system'
 
-const template = Directory.read('template', ['node_modules'])
-console.log(template)
-template.name = 'test'
-template.write()
+const path = process.argv[1].replace('bin\\createTemplate.js', 'template')
+const directory = Directory.read(path, ['node_modules', 'docs'])
+directory.files.forEach((file) => {
+  file.write()
+})
+directory.directories.forEach((directory) => {
+  directory.write()
+})
