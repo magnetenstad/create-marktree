@@ -44,3 +44,7 @@ $$
 (\text{equations})^2 - \int_0^1x \: dx
 $$
 Enabled by [@iktakahiro/markdown-it-katex](https://www.npmjs.com/package/@iktakahiro/markdown-it-katex)
+
+### Images
+Here's a gull
+![](images/gull.jpg)
