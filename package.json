@@ -1,11 +1,11 @@
 {
   "name": "create-marktree",
-  "version": "0.0.14",
+  "version": "0.1.0",
   "description": "Initializes a marktree project",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "createTemplate": "bin/createTemplate.js"
+    "create-template": "bin/create-template.js"
   },
   "scripts": {
     "test": ""
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/magnetenstad/create-marktree#readme",
   "dependencies": {
     "esm": "^3.2.25",
-    "virtual-file-system": "^1.0.10"
+    "virtual-file-system": "^1.1.0"
   }
 }
