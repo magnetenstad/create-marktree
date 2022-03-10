@@ -5,17 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <!-- Katex -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+  <link rel="stylesheet" href=
+      "https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
   <!-- GitHub Markdown Styles -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"/>
-
+  <link rel="stylesheet" href=
+      "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"/>
+  
+  <title>Welcome to marktree!</title>
+  <link rel="icon" type="image/x-icon" href="null">
+  
 <!-- Custom Styles -->
 <link rel="stylesheet" href="styles.css">
 
 
-  <title>Document</title>
 </head>
 <body>
 <article class="markdown-body">
@@ -30,16 +34,24 @@
 <ul>
 <li><a href="github.html">github.md</a></li>
 </ul>
-<h1>Welcome to marktree!</h1>
-<p>marktree is a static site generator, using markdown. It works great with GitHub pages. Thank you for giving it a try!</p>
+<h1>marktree 🔖🌳</h1>
+<p>marktree is a static site generator, using markdown. It works with GitHub pages out of the box.</p>
 <h2>Get started</h2>
+<p><a href="https://github.com/magnetenstad/create-marktree">create-marktree</a> is the quickest way to start a marktree project.</p>
 <ol>
-<li>Build your site</li>
+<li>Initiate create-marktree</li>
 </ol>
-<pre><code class="hljs">npm <span class="hljs-built_in">run</span> build
+<pre><code class="hljs language-sh">npm init marktree@latest
+npm i
 </code></pre>
-<ol start="5">
-<li>Host the contents of <code>docs/</code></li>
+<ol start="2">
+<li>Run marktree in dev</li>
+</ol>
+<pre><code class="hljs language-sh">npm run dev
+</code></pre>
+<ol start="3">
+<li>Host <code>docs/<span class="hljs-keyword">index</span>.html</code>, e.g. with LiveServer</li>
+<li>Write your markdown</li>
 </ol>
 <h2>Functionality</h2>
 <h3>Connections</h3>

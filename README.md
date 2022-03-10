@@ -4,8 +4,16 @@
 create-marktree is the quickest way to start a marktree project.
 
 ## Get started
+
+1. Initiate create-marktree
 ```sh
 npm init marktree@latest
 npm i
-npm run build
 ```
+2. Run marktree in dev
+```sh
+npm run dev
+```
+3. Host `docs/index.html`, e.g. with LiveServer
+4. Write your markdown  
+
