@@ -1,11 +1,11 @@
 {
   "name": "create-marktree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Initializes a marktree project",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "create-template": "bin/create-template.js"
+    "create-template": "bin/template.js"
   },
   "scripts": {
     "test": ""
